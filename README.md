@@ -16,16 +16,16 @@
 Как запустить программу:
 Внимание, у вас должен быть установлен python 3.6 и выше.
 1. Скачайте проект с гита и перейдите в дерикторию hackathon_test_weather/
-2. Развернуть и активировать виртуальное окружение venv (Не обязательно). Для этого используйте следующие команды:
-  python3 -m venv venv_weather
-  source venv_weather/bin/activate
+2. Разверните и активируйте виртуальное окружение venv (Не обязательно). Для этого используйте следующие команды:
+python3 -m venv venv_weather
+source venv_weather/bin/activate
 3. Установите библиотеки requests и Django с помощью пакетного менеджера pip:
-  pip install requests
-  pip install Django
+pip install requests
+pip install Django
 4. Перейдите в дерикторию weather_service/
-  cd weather_service/
+cd weather_service/
 5. Запустите сервер следующей командой:
-  python manage.py runserver
+python manage.py runserver
 6. Откройте браузер и перейдите по ссылке: http://127.0.0.1:8000
 Готово! Можно пользоваться.
 
